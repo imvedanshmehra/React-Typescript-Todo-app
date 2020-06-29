@@ -1,8 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It is built with React-Typescript and can save all the todos into local storage so you can see them even after refresh.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+
+Installs all the required dependies for this project.
 
 ### `npm start`
 

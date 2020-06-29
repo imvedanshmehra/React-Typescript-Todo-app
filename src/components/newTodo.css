@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.container {
+  width: 30%;
+  margin: 20px auto;
+  background-color: #3498db;
+  padding: 0 16px;
+  height: 500px;
+  overflow: auto;
+  font-family: "Roboto Mono", monospace;
+}
+.form {
+  margin: 8px 0;
+  position: sticky;
+  top: 0;
+  background-color: #3498db;
+}
+.input-box {
+  border: none;
+  padding: 8px 12px;
+  font-size: larger;
+}
+.error-input {
+  border: none;
+  padding: 8px 12px;
+  font-size: larger;
+  box-shadow: 0 0 0.5em 2px red;
+  animation: shake 0.2s ease-in-out;
+}
+.add-btn {
+  padding: 10px 14px;
+  margin: 0 12px;
+  font-size: large;
+  cursor: pointer;
+  outline: none;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 2px 2px #999;
+  background-color: #f1c40f;
+}
+.add-btn:hover {
+  background-color: #f39c12;
+}
+.add-btn:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+  background-color: #f39c12;
+}
+.input-box:focus,
+.add-btn:focus,
+.error-input:focus {
+  outline: none;
+}
+@keyframes shake {
+  0% {
+    margin-left: 0rem;
+  }
+  25% {
+    margin-left: 0.5rem;
+  }
+  75% {
+    margin-left: -0.5rem;
+  }
+  100% {
+    margin-left: 0rem;
+  }
+}
+.todos {
+  list-style-type: none;
+  font-size: larger;
+  padding: 2px 0;
+}
+.delete-btn {
+  float: right;
+  margin-right: 20%;
+  color: #d11a2a;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  opacity: 0.8;
+}
+.edit-btn {
+  float: right;
+  margin-right: 10px;
+  color: #273746;
+}
+.edit-btn:hover {
+  color: #2c3e50;
+}
